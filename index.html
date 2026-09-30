@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- This helps the website work properly on mobile devices -->
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Venue Booking</title>
+
+    <!-- Connecting HTML with CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <header>
+
+        <!-- Website Logo -->
+        <div class="logo">
+            VenueBook
+        </div>
+
+
+        <!-- Navigation Menu -->
+        <nav>
+
+            <a href="#">Home</a>
+
+            <a href="#">Venues</a>
+
+            <a href="#">Bookings</a>
+
+            <a href="#">Contact</a>
+
+        </nav>
+
+    </header>
+
+
+
+    <!-- ================= MAIN CONTENT ================= -->
+
+    <main>
+
+        <h1>Book Your Event Venue</h1>
+
+        <p class="intro">
+            Find the perfect venue for your special event.
+        </p>
+
+
+
+        <!-- ================= BOOKING AREA ================= -->
+
+        <div class="booking-container">
+
+
+            <!-- ================= BOOKING FORM ================= -->
+
+            <div class="booking-form">
+
+                <h2>Booking Form</h2>
+
+
+                <!-- Name -->
+
+                <label for="name">
+                    Name
+                </label>
+
+                <input
+                    type="text"
+                    id="name"
+                    placeholder="Enter your name"
+                >
+
+
+                <!-- Email -->
+
+                <label for="email">
+                    Email
+                </label>
+
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="Enter your email"
+                >
+
+
+                <!-- Event -->
+
+                <label for="event">
+                    Event Type
+                </label>
+
+                <select id="event">
+
+                    <option>Select Event</option>
+
+                    <option>Wedding</option>
+
+                    <option>Birthday Party</option>
+
+                    <option>Conference</option>
+
+                    <option>College Event</option>
+
+                    <option>Corporate Event</option>
+
+                </select>
+
+
+                <!-- Date -->
+
+                <label for="date">
+                    Event Date
+                </label>
+
+                <input
+                    type="date"
+                    id="date"
+                >
+
+
+                <!-- Number of Guests -->
+
+                <label for="guests">
+                    Number of Guests
+                </label>
+
+                <input
+                    type="number"
+                    id="guests"
+                    placeholder="Enter number of guests"
+                >
+
+
+                <!-- Button -->
+
+                <button>
+                    Book Venue
+                </button>
+
+            </div>
+
+
+
+            <!-- ================= BOOKING SUMMARY ================= -->
+
+            <div class="booking-summary">
+
+                <h2>Booking Summary</h2>
+
+
+                <p>
+                    <strong>Venue:</strong>
+                    Grand Celebration Hall
+                </p>
+
+
+                <p>
+                    <strong>Location:</strong>
+                    Bengaluru
+                </p>
+
+
+                <p>
+                    <strong>Capacity:</strong>
+                    500 people
+                </p>
+
+
+                <p>
+                    <strong>Price:</strong>
+                    ₹25,000 / day
+                </p>
+
+
+                <p>
+                    <strong>Status:</strong>
+                    Available
+                </p>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- ================= BOOKINGS TABLE ================= -->
+
+        <div class="table-section">
+
+            <h2>Recent Bookings</h2>
+
+
+            <!-- This container allows horizontal scrolling on mobile -->
+
+            <div class="table-container">
+
+                <table>
+
+                    <!-- Table Heading -->
+
+                    <thead>
+
+                        <tr>
+
+                            <th>Customer</th>
+
+                            <th>Event</th>
+
+                            <th>Date</th>
+
+                            <th>Guests</th>
+
+                            <th>Venue</th>
+
+                            <th>Status</th>
+
+                        </tr>
+
+                    </thead>
+
+
+                    <!-- Table Data -->
+
+                    <tbody>
+
+                        <tr>
+
+                            <td>Rahul</td>
+
+                            <td>Wedding</td>
+
+                            <td>10 Oct 2026</td>
+
+                            <td>300</td>
+
+                            <td>Grand Hall</td>
+
+                            <td>Confirmed</td>
+
+                        </tr>
+
+
+                        <tr>
+
+                            <td>Ananya</td>
+
+                            <td>Birthday</td>
+
+                            <td>15 Oct 2026</td>
+
+                            <td>100</td>
+
+                            <td>Royal Palace</td>
+
+                            <td>Pending</td>
+
+                        </tr>
+
+
+                        <tr>
+
+                            <td>Arjun</td>
+
+                            <td>Conference</td>
+
+                            <td>20 Oct 2026</td>
+
+                            <td>250</td>
+
+                            <td>City Convention Hall</td>
+
+                            <td>Confirmed</td>
+
+                        </tr>
+
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </div>
+
+    </main>
+
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <p>
+            © 2026 VenueBook. All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+</body>
+
+</html>
